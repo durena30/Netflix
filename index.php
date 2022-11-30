@@ -84,8 +84,8 @@ require "./components/header.php";
         <div class="row container-fluid">
             <div class="col"></div>
             <div class="col">
-                <h2 class="title-homepage text-center">Lights, Camera, Action!</h2>
-                <h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum nesciunt porro quis! Aspernatur, quas.</h4>
+                <h2 class="title-homepage text-center text-dark">Lights, Camera, Action!</h2>
+                <h4 class="text-center text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum nesciunt porro quis! Aspernatur, quas.</h4>
                 <div class="container">
                     <div class="row mt-5">
                         <div class="col text-end">
@@ -102,6 +102,10 @@ require "./components/header.php";
 
     </div>
     <div class="container-fluid bg-dark" id="features">
+        <div class="container-fluid text-center pt-4 text-warning">
+            <h3>Features of PopCorn</h3>
+        </div>
+
         <div class="row">
             <div class="col my-5 d-flex justify-content-center">
                 <div class="card-info mb-3 bg-dark" style="max-width: 20rem;">
@@ -139,6 +143,9 @@ require "./components/header.php";
         </div>
     </div>
     <div class="container-fluid bg-white" id="pricing">
+    <div class="container-fluid text-center pt-4 text-dark">
+            <h3>Pricing of PopCorn</h3>
+        </div>
         <div class="row">
             <div class="col my-5 d-flex justify-content-center">
                 <div class="card-info mb-3 bg-white" style="max-width: 20rem;">

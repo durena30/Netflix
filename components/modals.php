@@ -11,7 +11,7 @@
         <div class="container-fluid text-center"><?php if(isset($errormsg)){echo $errormsg;} ?></div>
         <div class="form-group">
           <div class="form-floating mb-3">
-            <input type="email" name="log_user" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input type="email" name="log_user" autocomplete="off" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">Email address</label>
           </div>
           <div class="form-floating">
@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="summit" name="login" class="btn btn-primary">Save changes</button>
+        <button type="summit" name="login" class="btn btn-primary">Log In</button>
         <button type="button" class="btn btn-secondary" id="closemodal2">Close</button>
       </div>
     </div>
@@ -43,19 +43,19 @@
           <div class="col">
             <div class="form-group">
               <div class="form-floating mb-3">
-                <input type="email" name="reg_email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="email" name="reg_email" autocomplete="off" class="form-control" id="floatingInput" placeholder="name@example.com">
                 <label for="floatingInput">Email address</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="email" name="reg_email2" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="email" name="reg_email2" autocomplete="off" class="form-control" id="floatingInput" placeholder="name@example.com">
                 <label for="floatingInput">Confirm your Email address</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="password" name="reg_pass" class="form-control" id="floatingPassword" placeholder="Password">
+                <input type="password" name="reg_pass" autocomplete="off" class="form-control" id="floatingPassword" placeholder="Password">
                 <label for="floatingPassword">Password</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="password" name="reg_pass2" class="form-control" id="floatingPassword" placeholder="Password">
+                <input type="password" name="reg_pass2" autocomplete="off" class="form-control" id="floatingPassword" placeholder="Password">
                 <label for="floatingPassword">Confirm your Password</label>
               </div>
             </div>
@@ -64,11 +64,11 @@
           <div class="col">
             <div class="form-group">
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                <input type="text" class="form-control" autocomplete="off" id="floatingInput" placeholder="Name">
                 <label for="floatingInput">Name</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Last Name">
+                <input type="text" class="form-control" autocomplete="off" id="floatingInput" placeholder="Last Name">
                 <label for="floatingInput">Last Name</label>
               </div>
               <!-- <div class="form-floating mb-3">
@@ -76,7 +76,7 @@
                 <label for="floatingPassword">Celphone</label>
               </div> -->
               <div class="form-floating mb-3">
-                <input type="number" class="form-control" id="floatingPassword" placeholder="Age">
+                <input type="number" class="form-control" autocomplete="off" id="floatingPassword" placeholder="Age">
                 <label for="floatingPassword">Age</label>
               </div>
             </div>
@@ -85,7 +85,7 @@
 
         </div>
         <div class="modal-footer">
-              <button type="summit" name="register" class="btn btn-primary">Save changes</button>
+              <button type="summit" name="register" class="btn btn-primary">Register</button>
               <button type="button" class="btn btn-secondary" id="closemodalr2">Close</button>
             </div>
       </form>
